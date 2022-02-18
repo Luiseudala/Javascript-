@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="minhaDiv"></div>
+    <script type="text/javascript">
+      var mensagem;
+      var retorno=confirm("Clique em um dos botões");
+      if(retorno==true)
+      {
+          mensagem="Operação confirmada";
+      }
+      else
+      {
+          mensagem="você cancelou a operação";
+      }
+      document.getElementById("minhaDiv").innerHTML=mensagem;
+    </script>
+</body>
+</html>
