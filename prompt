@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Javascript</title>
+</head>
+<body>
+    <div id="minhaDiv"></div>
+<script type="text/javascript">
+
+var a =prompt("Qual seu primeiro nome ?","Conta pra mim");
+var b =prompt("E seu sobrenome ?");
+document.getElementById("minhaDiv").innerHTML=`Olá, ${a} ${b}<br/>`;
+
+
+</script>    
+
+</body>
+</html>
