@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var fruta;
+        fruta= prompt("Digite o nome de uma fruta:");
+        switch(fruta.toLowerCase())
+        {
+            case"morango":
+            alert("Otima fruta para merengue!");
+            break;
+            case"laranja":
+            alert("Ötima pra suco!");
+            break;
+            case"banana":
+            alert("Perfeita na vitama,principalmente comleite em pó!");
+            break;
+            case"jabuticaba":
+            alert("Fruta que a Titai ama!");
+            break;
+            case"coco":
+            alert("sorvete favorito do meu pai!");
+            break;
+            case"uva":
+            alert("Fica ótima congelada!");
+            break;
+            case"melão":
+            alert("fruta favorita do Willi");
+            breal;
+            default:
+                alert("Desculpa, não encontrei essa fruta nos meus dados ");
+                break;
+
+        }
+    </script>
+    
+</body>
+</html>
