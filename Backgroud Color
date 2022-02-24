@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var corAndFundo;
+        corAndFundo= prompt("Digite uma cor:");
+        switch(corAndFundo.toLowerCase())
+        {
+           case"vermelho": 
+           corAndFundo="Red";
+           break; 
+           case"azul":
+           corAndFundo= "blue";
+           break;
+           case"rosa":
+           corAndFundo="pink";
+           break;
+           case"verde":
+           corAndFundo="green";
+           break;
+           case"roxo":
+           corAndFundo="purple";
+           break;
+           case"amarelo":
+           corAndFundo="yellow";
+           break;
+           case"lilás":
+           corAndFundo="lila";
+           break;
+           case"preto":
+           corAndFundo="black";
+           break;
+           case"cinza":
+           corAndFundo="grey";
+           break;
+           case"branco":
+           corAndFundo="white";
+           break;
+           case"laranja":
+           corAndFundo="orange";
+           break;
+           case"dourado":
+           corAndFundo="gold";
+           break;
+           default:
+               corAndFundo = "brown";
+               alert("Ops! não encontrei sua cor nos meus dados.");
+               break;
+        }
+
+        document.querySelector("body").style.backgroundColor=corAndFundo;
+
+    </script>
+    
+</body>
+</html>
